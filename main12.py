@@ -6,7 +6,7 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, BatchNormalization, Flatten, Dense
 
-image_dir = 'C:/Users/reghb/OneDrive/Desktop/MATALB code/Machine learning/Project- COMS574/images9.30%/'
+image_dir = 'C:/Users/reghb/OneDrive/Desktop/Machine learning/Project- COMS574/images9.30%/'
 images = []
 for filename in os.listdir(image_dir):
     if filename.endswith('.png'):
